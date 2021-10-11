@@ -1,0 +1,18 @@
+Our team made a text based hangman game using C++.
+
+Our game first reads in a text file to generate an array of words for the user to guess.
+When the player decides to start the game, a word is randomly selected from the array. This creates a string of underscores, which represents the characters of the randomly generated word that the player has to guess. The game then prints out a gallow with the hangman which are both made up of lines and characters.
+
+We then prompt the user for inputs until they either guess the word or run out of guesses.
+
+If the user enters a repeated character, numeric value or incorrect string length, we reprompt them, asking them to guess again. This does not result in a penalty and they get another chance for correction.
+
+If the user guesses a character or a word, we check to see if it matches the word list. This is done before revealing the correct word. If correctly matched, either with a word or character, a limb is not added.
+
+When the user either uses up all of their chances or guesses the word correctly, we display a win or lose message. Then we prompt the user to either play again or quit. If the user chooses to play again, a new random word is selected and the game is repeated.
+
+We also implemented a scoring system which awards points for characters guessed and words guessed based. We also take points away from wrong guesses. 
+
+Another feature we added is the hint system. When a user guesses incorrectly at the start, either twice or three times,we will reveal the first character and all occurrences of the same character in the word. This is all based on the length of the word. We also give a hint if the user only has one chance left and they have four or more missing characters by revealing the first missing character and all occurences of that character. Note that we do not give points for the characters revealed by hints.
+
+Overall our team worked for over 12 hours coming up with ideas and coding them into our game. This is our first Hackathon and we really enjoyed working together and meeting new people as well as learning different things from each other. We had a really fun time making this game and hope that everyone who plays it has a good time. We hope you enjoyy our HangMan game!
